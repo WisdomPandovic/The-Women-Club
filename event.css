@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid #fff; /* White border */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block to apply padding and border */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #000; /* Change text color on hover */
+}
+
+.full-width-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.photo-gallery-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery-item img {
+    /* width: 100%;
+    height: auto;
+    border-radius: 8px; */
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+.christmas-club-lunch {
+    padding: 50px 0;
+}
+
+.christmas-club-lunch img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    padding: 20px;
+    margin: 50px 0px;
+}
+
+.text-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #9D8453;
+}
+
+.text-container p {
+    font-size: 18px;
+}
+
+.personal-connections-section {
+    padding: 50px 0;
+}
+
+.personal-connections-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.personal-connections-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #9A979E;
+}

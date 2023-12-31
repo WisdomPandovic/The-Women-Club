@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-width-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-overlay h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.image-overlay h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.image-overlay p {
+    font-size: 2em;
+}
+
+.membership-login {
+    background-color: #9D8453 !important; 
+    margin-right: 10px; 
+    color: #fff !important;
+    text-transform: uppercase;
+    border: none;
+}
+
+.event {
+    background-color: #000 !important; 
+    border: 1px solid white;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid #fff; /* White border */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block to apply padding and border */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #000; /* Change text color on hover */
+}
+
+.welcome-section{
+    margin: 50px 0px;
+}
+
+.welcome-section h2{
+    font-size: 4em;
+    margin: 20px 0px;
+    color: #595959;
+}
+
+.welcome-section .btn {
+    background-color: transparent;
+    border: 2px solid #000; /* White border */
+    color: #595959; /* White text */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block to apply padding and border */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
+    text-transform: uppercase;
+    margin-top: 30px;
+} 
+
+.mission-section {
+    width: 95%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mission-section .container {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mission-section .btn {
+    background-color: transparent;
+    border: 2px solid #000; /* White border */
+    color: #595959; /* White text */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block to apply padding and border */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.mission-header{
+    text-transform: uppercase;
+    margin: 20px 0px;
+    color: #595959;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.mission-statement{
+    color: #9797C3;
+}
+
+
+.grid-item img{
+    width: 100%;
+    height: 300px;
+}
+
+.quote-section {
+    background-color: #f8f9fa; 
+    padding: 50px 0; 
+}
+
+.blockquote {
+    font-size: 24px; 
+    color: #333; 
+}
+
+.blockquote-footer {
+    font-size: 18px; 
+    color: #555; 
+    margin-top: 10px; 
+}
+
+@media (max-width: 768px) {
+
+    #navbar.navbar-light.bg-transparent {
+        background-color: #A8A8A7 !important;
+        color: #fff;
+    }
+    .image-overlay-members {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        display: block;
+        gap: 80px;
+    }
+
+    .event-box img {
+    height:300px;
+}
+
+}
+
+@media (max-width: 500px) {
+
+    #navbar.navbar-light.bg-transparent {
+        background-color: #A8A8A7 !important;
+        color: #fff;
+    }
+
+    .full-width-image {
+        margin-top: 50px ;
+    }
+
+    .image-overlay h2 {
+        font-size: 1.9em;
+        margin-bottom: 20px;
+    }
+
+    .image-overlay p {
+        font-size: 1em;
+    }
+    
+}
+
+@media (max-width: 360px) {
+
+    .image-overlay h2 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
+}
