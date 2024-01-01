@@ -9,7 +9,7 @@ body{
 }
 
 .footer-section {
-    background-image: url('./images/20230612_233710.jpg'); /* Add your background image path */
+    background-image: url('./images/women-club-gallery-11.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,8 +94,6 @@ body{
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
-    /* display: flex;
-    flex-direction: column; */
     align-items: center;
     max-width: 600px;
     margin: 40px auto;
