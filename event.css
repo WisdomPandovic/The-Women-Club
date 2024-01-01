@@ -83,3 +83,15 @@
     margin-bottom: 20px;
     color: #9A979E;
 }
+
+@media (max-width: 576px) {
+
+    .text-container {
+        padding: 0px;
+        margin: 10px 0px;
+    }
+
+    .text-container p {
+        font-size: 15px;
+    }
+}

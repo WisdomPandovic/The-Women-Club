@@ -9,10 +9,7 @@ body{
 }
 
 .footer-section {
-    background-image: url('./images/women-club-gallery-11.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #000;
     color: white;
     padding: 50px 0;
 }
@@ -112,4 +109,22 @@ body{
 .copyright h2{
     font-size: 13px;
     padding: 10px 0px;
+}
+
+@media (max-width: 576px) {
+
+    .footer-section {
+        background-color: #000;
+        color: white;
+        padding: 50px 10px;
+    }
+
+    .footer-section p {
+        font-size: 15px;
+    }
+
+    .address h4 {
+        font-size: 20px;
+    }
+
 }

@@ -189,6 +189,12 @@
     .image-overlay p {
         font-size: 1em;
     }
+
+    .welcome-section h2 {
+        font-size: 2em;
+        margin: 20px 0px;
+        color: #595959;
+    }
     
 }
 
