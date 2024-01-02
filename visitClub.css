@@ -130,3 +130,14 @@
         text-align: center;
     }
 }
+
+@media (max-width: 768px) {
+    .ls .row {
+        flex-direction: column;
+    }
+
+    .ls .col-md-6 {
+        width: 100%;
+        max-width: 100%;
+    }
+}

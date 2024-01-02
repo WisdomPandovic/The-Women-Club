@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: cormorant-garamond,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roxborough CF", sans-serif;
 }
 
 .navbar-brand h1{
@@ -13,12 +13,10 @@
     background-color: transparent !important;
 }
 
-/* Add styles for the black navbar on scroll */
 #navbar.navbar-light.bg-dark {
     background-color: #000 !important;
 }
 
-/* Add styles for the white text on navbar links */
 #navbar.navbar-light .navbar-nav .nav-link.text-white {
     color: #fff !important;
 }
@@ -36,7 +34,6 @@
         background-color: #A8A8A7 !important;
         color: #fff;
     }
-
 }
 
 @media (max-width: 500px) {

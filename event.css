@@ -5,18 +5,18 @@
 
 .btn {
     background-color: transparent;
-    border: 2px solid #fff; /* White border */
-    color: #fff; /* White text */
-    padding: 10px 20px; /* Adjust padding as needed */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Display as inline-block to apply padding and border */
-    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
+    border: 2px solid #fff; 
+    color: #fff;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background-color 0.3s, color 0.3s; 
     text-transform: uppercase;
 }
 
 .btn:hover {
-    background-color: #fff; /* Change background color on hover */
-    color: #000; /* Change text color on hover */
+    background-color: #fff; 
+    color: #000; 
 }
 
 .full-width-image {
@@ -35,9 +35,6 @@
 }
 
 .gallery-item img {
-    /* width: 100%;
-    height: auto;
-    border-radius: 8px; */
     transition: transform 0.3s ease-in-out;
 }
 
